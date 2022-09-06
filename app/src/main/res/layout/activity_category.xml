@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rowielokentmatsui.writeme.Category">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/category">
+
+        <Button
+            android:id="@+id/easysbtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="62dp"
+            android:background="@drawable/easy_btn"
+            android:onClick="goEasy" />
+
+
+        <Button
+            android:id="@+id/averagesbtn"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/easysbtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/avr_btn"
+            android:onClick="goAv" />
+
+
+        <Button
+            android:id="@+id/hardsbtn"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/averagesbtn"
+            android:layout_below="@+id/averagesbtn"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/hard_btn"
+            android:onClick="goHard" />
+
+        <Button
+            android:id="@+id/gobacks"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/hardsbtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/button_back"
+            android:onClick="goback" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

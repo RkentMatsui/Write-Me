@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rowielokentmatsui.writeme.Achievements">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayouts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg">
+
+
+
+        <TabHost
+            android:id="@+id/tabHostachievement"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="344dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true">
+
+
+                </TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tab1achievement"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:orientation="vertical">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <GridLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:columnCount="7">
+
+                                    <Button
+                                        android:id="@+id/BigAach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_marginStart="9dp"
+                                        android:background="@drawable/badgea" />
+
+                                    <Button
+                                        android:id="@+id/BigBach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgeb"
+                                        />
+
+                                    <Button
+                                        android:id="@+id/BigCach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgec"
+                                        />
+
+                                    <Button
+                                        android:id="@+id/BigDach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badged"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigEach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgec"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigFach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgef"
+                                        />
+
+                                    <Button
+                                        android:id="@+id/BigGach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgeg"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigHach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgeh"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigIach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgei"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigJach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgej"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigKach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgek"
+                                       />
+
+                                    <Button
+                                        android:id="@+id/BigLach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgel"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigMach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgem"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigNach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgen"
+                                        />
+
+                                    <Button
+                                        android:id="@+id/BigOach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgeo"
+                                        />
+
+                                    <Button
+                                        android:id="@+id/BigPach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgep"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigQach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgeq"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigRach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badger"
+                                       />
+
+                                    <Button
+                                        android:id="@+id/BigSach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badges"
+                                        />
+
+                                    <Button
+                                        android:id="@+id/BigTach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badget"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigUach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgeu"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigVach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgev"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigWach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgew"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigXach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgex"
+                                         />
+
+                                    <Button
+                                        android:id="@+id/BigYach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgey"
+                                        />
+
+                                    <Button
+                                        android:id="@+id/BigZach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badgez"
+                                         />
+
+
+                                </GridLayout>
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab2achievement"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <GridLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:columnCount="7">
+
+                                    <Button
+                                        android:id="@+id/Smallaach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_marginStart="9dp"
+
+                                         />
+
+                                    <Button
+                                        android:id="@+id/Smallbach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                       />
+
+                                    <Button
+                                        android:id="@+id/Smallcach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                       />
+
+                                    <Button
+                                        android:id="@+id/Smalldach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                         />
+
+                                    <Button
+                                        android:id="@+id/Smalleach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                        />
+
+                                    <Button
+                                        android:id="@+id/Smallfach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                        />
+
+                                    <Button
+                                        android:id="@+id/Smallgach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                       />
+
+                                    <Button
+                                        android:id="@+id/Smallhach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                       />
+
+                                    <Button
+                                        android:id="@+id/Smalliach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                       />
+
+                                    <Button
+                                        android:id="@+id/Smalljach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                        />
+
+                                    <Button
+                                        android:id="@+id/Smallkach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                         />
+
+                                    <Button
+                                        android:id="@+id/Smalllach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                        />
+
+                                    <Button
+                                        android:id="@+id/Smallmach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                       />
+
+                                    <Button
+                                        android:id="@+id/Smallnach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                        />
+
+                                    <Button
+                                        android:id="@+id/Smalloach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                       />
+
+                                    <Button
+                                        android:id="@+id/Smallpach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                         />
+
+                                    <Button
+                                        android:id="@+id/Smallqach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                        />
+
+                                    <Button
+                                        android:id="@+id/Smallrach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                         />
+
+                                    <Button
+                                        android:id="@+id/Smallsach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                         />
+
+                                    <Button
+                                        android:id="@+id/Smalltach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                        />
+
+                                    <Button
+                                        android:id="@+id/Smalluach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                       />
+
+                                    <Button
+                                        android:id="@+id/Smallvach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                       />
+
+                                    <Button
+                                        android:id="@+id/Smallwach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+
+                                        />
+
+                                    <Button
+                                        android:id="@+id/Smallxach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                       />
+
+                                    <Button
+                                        android:id="@+id/Smallyach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                        />
+
+                                    <Button
+                                        android:id="@+id/Smallzach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                        />
+                                </GridLayout>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab3achievement"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:orientation="vertical">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <GridLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:columnCount="7">
+
+                                    <Button
+                                        android:id="@+id/circleach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badge_circle"
+                                        />
+                                    <Button
+                                        android:id="@+id/rectangleach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/bdge_rect"
+                                        />
+
+                                    <Button
+                                        android:id="@+id/squareach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badge_square"
+                                         />
+                                    <Button
+                                        android:id="@+id/triangleach"
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="9dp"
+                                         android:background="@drawable/badge_triangle"
+                                         />
+                                </GridLayout>
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </TabHost>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/backbutt"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/button_back"
+        app:layout_constraintEnd_toEndOf="@+id/relativeLayouts"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp"
+        android:onClick="backing"/>
+
+</android.support.constraint.ConstraintLayout>

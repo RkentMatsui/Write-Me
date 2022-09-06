@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg">
+
+        <TabHost
+            android:id="@+id/tabHost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="344dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true">
+
+
+                </TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:orientation="vertical">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <GridLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:columnCount="6">
+
+                                    <Button
+                                        android:id="@+id/BigA"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_marginStart="9dp"
+                                        android:background="@drawable/letter_a"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigB"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_b"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigC"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_c"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigD"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_d"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigE"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_e"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigF"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_f"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigG"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_g"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigH"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_h"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigI"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_i"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigJ"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_j"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigK"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_k"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigL"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_l"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigM"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_m"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigN"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_n"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigO"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_o"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigP"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_p"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigQ"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_q"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigR"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_r"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigS"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_s"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigT"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_t"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigU"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_u"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigV"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_v"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigW"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_w"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigX"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_x"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigY"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_y"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/BigZ"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/letter_z"
+                                        android:onClick="onBoard" />
+
+
+                                </GridLayout>
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <GridLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:columnCount="6">
+
+                                    <Button
+                                        android:id="@+id/Smalla"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_marginStart="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallb"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallc"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smalld"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smalle"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallf"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallg"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallh"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smalli"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallj"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallk"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smalll"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallm"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smalln"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallo"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallp"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallq"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallr"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smalls"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallt"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallu"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallv"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallw"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallx"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smally"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/Smallz"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:onClick="onBoard" />
+                                </GridLayout>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:orientation="vertical">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <GridLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:columnCount="6">
+
+                                    <Button
+                                        android:id="@+id/circle"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/circle"
+                                        android:onClick="onBoard" />
+                                    <Button
+                                        android:id="@+id/rectangle"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/rectanglebutt"
+                                        android:onClick="onBoard" />
+                                    <Button
+                                        android:id="@+id/square"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/square"
+                                        android:onClick="onBoard" />
+
+                                    <Button
+                                        android:id="@+id/triangle"
+                                        android:layout_width="85dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:background="@drawable/triangle"
+                                        android:onClick="onBoard" />
+                                </GridLayout>
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </TabHost>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/backbutt"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/button_back"
+        app:layout_constraintEnd_toEndOf="@+id/relativeLayout"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp"
+        android:onClick="backing"/>
+
+    <!--&lt;!&ndash;android:onClick="onSmall"&ndash;&gt;-->
+
+
+</android.support.constraint.ConstraintLayout>

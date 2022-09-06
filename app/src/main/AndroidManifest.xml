@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rowielokentmatsui.writeme">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainMenu"
+            android:screenOrientation="landscape" />
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".WriteABC"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".WritingBoard"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CustomBackgroundIntro"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Category"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HardDraw"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LoadingScreenActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AverageABC"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".WritingBoardAvg"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Achievements"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HistoryPick"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HistoryVIew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".practice_activity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Practice_write"
+            android:screenOrientation="landscape"/>
+    </application>
+
+</manifest>

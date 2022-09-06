@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rowielokentmatsui.writeme.HardDraw">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/green">
+
+        <com.example.rowielokentmatsui.writeme.views.DrawView
+            android:id="@+id/draw"
+            android:layout_width="280dp"
+            android:layout_height="290dp"
+            android:layout_above="@+id/audios"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="1"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/audios"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/draw"
+            android:background="@drawable/button_audio"
+            android:onClick="audiobutt" />
+
+        <Button
+            android:id="@+id/backs"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="46dp"
+            android:layout_toEndOf="@+id/erases"
+            android:background="@drawable/button_back"
+            android:onClick="backer" />
+
+        <Button
+            android:id="@+id/erases"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/draw"
+            android:layout_marginStart="31dp"
+            android:background="@drawable/button_erase"
+            android:onClick="eraseboard" />
+
+        <Button
+            android:id="@+id/buttonchhar"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_toEndOf="@+id/backs"
+            android:background="@drawable/button_check"
+            android:onClick="checkifriht" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

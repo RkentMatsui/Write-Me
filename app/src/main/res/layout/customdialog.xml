@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@drawable/dialog">
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/congrats"
+        android:contentDescription="Congratulations"
+        android:src="@drawable/congrats"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/imagepop"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="Congratulations"
+        android:src="@drawable/sbadge_a" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/close"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|left"
+            android:background="@drawable/button_back"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/exitor"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/menu_exit"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/next"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|right"
+            android:background="@drawable/button_next"
+            android:textStyle="bold" />
+    </FrameLayout>
+</LinearLayout>
